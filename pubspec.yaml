@@ -1,0 +1,33 @@
+name: clock_app
+description: Clock app with alarm, world clock, timer, stopwatch + task-based alarm dismissal.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2          # State management (chosen approach)
+  audioplayers: ^6.0.0      # Alarm ringtone playback
+  vibration: ^2.0.0         # Vibrate on alarm
+  sensors_plus: ^6.0.1      # Accelerometer for push-up/squat rep counting
+  mobile_scanner: ^5.2.3    # QR / barcode scanning task
+  image_picker: ^1.1.2      # Object/nature photo recognition task
+  speech_to_text: ^7.0.0    # Speech/reading-aloud dismissal task
+  intl: ^0.19.0             # Date/time formatting
+  flutter_local_notifications: ^17.2.2  # Schedule alarm notifications
+  timezone: ^0.9.4          # World clock timezone math
+  google_fonts: ^6.2.1      # Rounded/handwritten style font (e.g. Baloo2 / Comfortaa)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/

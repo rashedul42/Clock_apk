@@ -1,0 +1,26 @@
+# This file tracks properties of this Flutter project.
+# Used by Flutter tool to assess capabilities and perform upgrades etc.
+#
+# This file should be version controlled and should not be manually edited.
+
+version:
+  revision: "flutlab-manual-scaffold"
+  channel: "stable"
+
+project_type: app
+
+# Tracking that platform code is currently present for these platforms.
+platforms:
+  - platform: android
+    create_revision: "flutlab-manual-scaffold"
+    base_revision: "flutlab-manual-scaffold"
+  - platform: ios
+    create_revision: "flutlab-manual-scaffold"
+    base_revision: "flutlab-manual-scaffold"
+  - platform: web
+    create_revision: "flutlab-manual-scaffold"
+    base_revision: "flutlab-manual-scaffold"
+
+unmanaged_files:
+  - 'lib/main.dart'
+  - 'ios/Runner.xcodeproj/project.pbxproj'
